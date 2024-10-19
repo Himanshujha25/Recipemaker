@@ -1,0 +1,188 @@
+.signup {
+  padding: 40px 20px; /* Increase vertical padding for better spacing */
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0; /* Remove unnecessary commas, use consistent margin */
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 15px; /* Increase padding for a better look */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 26px; /* Slightly increase logo size for prominence */
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.navbar-links a {
+  color: white;
+  margin: 0 10px; /* Reduce link margins for more compact navbar */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 450px; /* Limit form width for better readability */
+  margin: 50px auto; /* Center form and add more vertical spacing */
+  background-color: white;
+  padding: 40px; /* Increase padding for better balance */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Stronger shadow for more depth */
+}
+
+.signup-form h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px; /* Add space below heading */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Add extra space between form fields */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px; /* Add more space below label */
+}
+
+input {
+  width: 100%;
+  padding: 10px; /* Increase padding inside input for more space */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Slightly less rounded corners */
+  transition: border-color 0.3s;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px; /* Increase padding for a larger button */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-links {
+  text-align: center;
+  margin-top: 30px; /* Increase space above footer links */
+}
+
+.footer-links a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 15px; /* Increase space between footer links */
+}
+
+.footer {
+  text-align: center;
+  padding: 20px; /* Increase padding for footer */
+  background-color: #333;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+}
+.signup {
+    padding: 40px 20px; /* Increase vertical padding for better spacing */
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0; /* Remove unnecessary commas, use consistent margin */
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 15px; /* Increase padding for a better look */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 26px; /* Slightly increase logo size for prominence */
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.navbar-links a {
+    color: white;
+    margin: 0 10px; /* Reduce link margins for more compact navbar */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup-form {
+    width: 100%;
+    max-width: 450px; /* Limit form width for better readability */
+    margin: 50px auto; /* Center form and add more vertical spacing */
+    background-color: white;
+    padding: 40px; /* Increase padding for better balance */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Stronger shadow for more depth */
+}
+
+.signup-form h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Add extra space between form fields */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Add more space below label */
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Increase padding inside input for more space */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly less rounded corners */
+    transition: border-color 0.3s;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 10px; /* Increase padding for a larger button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 30px; /* Increase space above footer links */
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 15px; /* Increase space between footer links */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px; /* Increase padding for footer */
+    background-color: #333;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}

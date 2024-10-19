@@ -1,0 +1,86 @@
+.vegetarian-page {
+  padding: 20px;
+  background-color: #e3f2fd;
+  font-family: Arial, sans-serif;
+}
+
+.vegetarian-page h1 {
+  font-size: 3rem;
+  color: #2196f3;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, color 0.3s;
+}
+
+h1{
+  margin-top: 100px;
+  
+}
+
+.vegetarian-page h1:hover {
+  transform: translateY(-5px);
+  color: #1976d2;
+}
+
+.recipes {
+  margin-top:-30px ;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.recipe-card h2 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.recipe-card p {
+  margin: 10px;
+  color: #666;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}

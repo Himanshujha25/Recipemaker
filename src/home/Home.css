@@ -1,0 +1,235 @@
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Verdana', sans-serif; /* Modern font */
+  line-height: 1.6;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Homepage Styles */
+.homepage {
+  margin-top: 60px;
+  background-image: url(C:\Users\Himanshu\recipemaker\src\assets\img\pexels-markus-winkler-1430818-2862154.jpg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: rgba(87, 72, 72, 0.8); /* Slightly more opaque */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.navbar:hover {
+  background: rgb(204, 9, 9); /* Full opacity on hover */
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s ease, transform 0.3s ease; /* Added transform on hover */
+}
+
+.navbar-links a:hover {
+  color: #007BFF; /* Change to blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.signup-btn {
+  background: #007BFF;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+.signup-btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+
+.hero-content h1 {
+  font-size: 3.5rem; /* Increased font size */
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.4rem; /* Adjusted font size */
+  margin-bottom: 1.5rem;
+}
+
+/* Call to Action Button */
+.cta-btn {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1rem; /* Adjusted font size */
+  transition: background 0.3s ease, transform 0.3s ease; /* Correct transition property */
+}
+
+.cta-btn:hover {
+  background: #007BFF; /* Change background on hover */
+  color: white;
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Categories Section */
+.categories-section {
+  margin-top: -20px;
+  padding: 4rem 2rem;
+  text-align: center;
+  background-image: url(../assets/img/pexels-mouktik-joshi-98936055-9646843.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative; /* For positioning elements */
+}
+
+.categories-section h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added shadow transition */
+  text-align: left;
+}
+
+.category-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+}
+
+.category-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Category Title and Description */
+.category-card h3 {
+  margin: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.category-card p {
+  padding: 0 1rem 1rem;
+  color: #777;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-image: url(C:\Users\Himanshu\recipemaker\src\assets\img\pexels-photo-2373520.jpeg);
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: rgba(248, 249, 250, 0.9); /* Semi-transparent light background */
+}
+
+.cta-section h2,
+.cta-section p {
+  color: rgb(0, 0, 0);
+  margin-bottom: 1.5rem;
+  font: 2em sans-serif;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #333;
+  color: white;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer strong {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links a {
+    margin: 0.5rem 0; /* Margin adjustment for mobile */
+  }
+
+  .hero-content h1 {
+    font-size: 2.8rem; /* Adjust font size for smaller screens */
+  }
+
+  .categories-section h2 {
+    font-size: 2.2rem; /* Adjust title size */
+  }
+
+  .category-card h3 {
+    font-size: 1.3rem; /* Adjust size for smaller screens */
+  }
+
+  .cta-section h2 {
+    font-size: 1.8rem; /* Adjust size for call to action */
+  }
+
+  .cta-btn {
+    font-size: 1rem; /* Adjust button font size */
+  }
+}

@@ -1,0 +1,93 @@
+/* AboutUs.css */
+
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Verdana', sans-serif; /* Modern font */
+  line-height: 1.6;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+/* About Us Section */
+.about-us {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/pexels-food-photos-459826.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  height: 100vh;
+}
+
+.hero-section h1 {
+  font-size: 4rem; /* Increased font size */
+  margin-top: 35px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+  font-size: 1.5rem; /* Adjusted font size */
+  margin-bottom: 1.5rem;
+  max-width: 800px; /* Limit width for better readability */
+  line-height: 1.8;
+}
+
+/* Social Media Icons */
+.social-media {
+  margin-top: 1.5rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: white;
+  transition: transform 0.3s ease; /* Added transition for scaling */
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Scale effect on hover */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #333;
+  color: white;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer strong {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+  }
+
+  .hero-section p {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+}
